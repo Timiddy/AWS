@@ -7,4 +7,4 @@ import boto3
 
 s3_uri="s3://timmu-athena-sql/Netflix_data/"
 df=wr.s3.read_csv(s3_uri)
-print(df)
+print(df).
